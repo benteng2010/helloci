@@ -28,7 +28,7 @@ jobs:
 
         - name: Build 
           run: |
-          go build -v -o helloci . 
+            go build -v -o helloci . 
 
         - name: Collect main.go file 
           uses: actions/upload-artifact@v1.0.0 
